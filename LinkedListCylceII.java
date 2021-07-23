@@ -25,7 +25,7 @@ public class LinkedListCylceII {
             ListNode cur = head;
             while (cur != slow) {
                 cur = cur.next;
-                slow = slow.next
+                slow = slow.next;
             }
             return slow;
         }
